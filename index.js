@@ -9,7 +9,7 @@ const theBeatlesPlay = (musicians,instruments) => {
 const johnLennonFacts = facts => {
   let i = 0;
   let excitedFacts = [];
-  while (i<facts.length) {
+  while (i < facts.length) {
     excitedFacts.push(`${facts[i]}!!!`);
     i++;
   }
