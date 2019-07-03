@@ -6,7 +6,7 @@ const theBeatlesPlay = (musicians,instruments) => {
   return itBe;
 }
 
-const johnLennonFacts = (facts) => {
+const johnLennonFacts = facts => {
   let i = 0;
   let excitedFacts = [];
   while (i<facts.length) {
@@ -16,5 +16,13 @@ const johnLennonFacts = (facts) => {
   return excitedFacts;
 }
 
-const iLoveTheBeatles 
+const iLoveTheBeatles = num => {
+  array = [];
+  do {array.push("I love the Beatles!")
+  num++
+} while (num<15) {
+  array.push("I love the Beatles!")
+  num++
+}
+}
 
