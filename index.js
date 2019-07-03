@@ -11,16 +11,16 @@ const johnLennonFacts = facts => {
   let excitedFacts = [];
   while (i<facts.length) {
     excitedFacts.push(`${facts[i]}!!!`);
-    i++
+    i++;
   }
   return excitedFacts;
 }
 
 const iLoveTheBeatles = num => {
   let array = [];
-  do {array.push("I love the Beatles!")
-  num++
-  } while (num<15) 
+  do {array.push("I love the Beatles!");
+  num++;
+  } while (num < 15) ;
   return array;
 }
 
