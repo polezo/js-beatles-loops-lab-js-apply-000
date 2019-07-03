@@ -20,9 +20,10 @@ const iLoveTheBeatles = num => {
   array = [];
   do {array.push("I love the Beatles!")
   num++
-} while (num<15) {
-  array.push("I love the Beatles!")
-  num++
-}
+  } while (num<15) {
+  array.push("I love the Beatles!");
+  num++;
+  }
+  return array;
 }
 
